@@ -9,19 +9,19 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
-        이 페이지는 nakosung님의 wordle(Wordle의 clone의 한국어 변형판)입니다 -{' '}
+      이 페이지는 nakosung님의 코드(Wordle의 clone의 한국어 변형판)에서 약간의 디자인과 단어 목록을 수정한 것입니다 -{' '}
         <a
           href="https://github.com/nakosung/wordle"
           className="underline font-bold"
         >
-          코드는 여기에
+          nakosung님의 코드
         </a>{' '}
-        and{' '}
+        그리고{' '}
         <a
           href="https://www.powerlanguage.co.uk/wordle/"
           className="underline font-bold"
         >
-          오리지널은 여기에서
+          오리지널 코드
         </a>
       </p>
     </BaseModal>
