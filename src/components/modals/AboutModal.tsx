@@ -9,6 +9,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
+      게임 힌트: 42 관련 단어<br/><br/>
       이 페이지는 nakosung님의 코드(Wordle의 clone의 한국어 변형판)에서 약간의 디자인과 단어 목록을 수정한 것입니다 -{' '}
         <a
           href="https://github.com/nakosung/wordle"

@@ -2,7 +2,7 @@
   "name": "wordle",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nakosung.github.io/wordle/",
+  "homepage": "https://euiminnn.github.io/wordle/",
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
