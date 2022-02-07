@@ -14,7 +14,7 @@ export const StatsModal = ({ isOpen, handleClose, gameStats }: Props) => {
     <BaseModal title="통계" isOpen={isOpen} handleClose={handleClose}>
       <StatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-900">
-        Guess Distribution
+        시도 회수 분포
       </h4>
       <Histogram gameStats={gameStats} />
     </BaseModal>
